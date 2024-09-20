@@ -41,7 +41,7 @@ This is the steps taken to generate the 3D SAR models from looking at the submis
  - Matlab Files: `pointCLoud_creator_parkingLot.m`
  - Input Files: `resultsCombine.mat`
  - Output Files : 'parkingLot_full_L1'
- - 
+  
 In case of the GOTCHA parking lot, skip steps 1 and 2 and 
 proceed to Joint Sparse Recovery
  - Matlab Files: 
