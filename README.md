@@ -31,11 +31,17 @@ This is the steps taken to generate the 3D SAR models from looking at the submis
  - Input Files: `full_2d_###_#.mat` (aperature, pass_idx)
  - Output Files: `Results_3D_###.mat` (aperture)
 
-4. Integrate over apertures (I believe we also have python code at Kitware that does this)
+4. Integrate over apertures 
  - Submission script: `run_integrate.sh`
  - Matlab Files: `image3d_integrate.m`
  - Input Files: `Results_3D_###.mat`
+ - Output Files : 'resultsCombine.mat'
 
+5. Create the point-cloud file in '.ply' format
+ - Matlab Files: `pointCLoud_creator_parkingLot.m`
+ - Input Files: `resultsCombine.mat`
+ - Output Files : 'parkingLot_full_L1'
+ - 
 In case of the GOTCHA parking lot, skip steps 1 and 2 and 
 proceed to Joint Sparse Recovery
  - Matlab Files: 
