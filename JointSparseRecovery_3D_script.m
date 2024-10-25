@@ -84,6 +84,6 @@ for azCenter =1:359
     xImage=(-M_x/2+1:M_x/2)*Res_x;
     yImage=(-M_y/2+1:M_y/2)*Res_y;
 
-   JointSparseRecovery_3D(im_final,xImage,yImage,f1,azimuthVals1,elev1);
+   JointSparseRecovery_3D_L1(im_final,xImage,yImage,f1,azimuthVals1,elev1);
 
 end
