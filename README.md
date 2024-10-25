@@ -46,7 +46,7 @@ In case of the GOTCHA parking lot, skip steps 1 and 2 and
 proceed to Joint Sparse Recovery
  - Matlab Files: 
    - `JointSparseRecovery_3D_script.m`
-   - `JointSparseRecovery_3D.m`
+   - `JointSparseRecovery_3D_L1.m`
  - Input Files: `saveData_#.mat` (pass_idx)
  - Output Files: `Results_3D_###.mat` (aperture)
 
